@@ -1,9 +1,9 @@
 <?php
 
 $servidor = "localhost";
-	$usuario = "katchi47_midori";
-	$senha = "[J85^OL;YTm7";
-	$dbname = "katchi47_wp611";
+	$usuario = "xxxx";
+	$senha = "xxxx";
+	$dbname = "xxxx";
 	
 	//Criar a conexao
 	$con = mysqli_connect($servidor, $usuario, $senha, $dbname);

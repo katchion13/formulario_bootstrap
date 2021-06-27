@@ -21,7 +21,7 @@
     <th>間違い:
 </th>
       </tr>
-<?php include("https://katchion.com/boot_table/conn.php");
+<?php include("conn.php");
 	$consulta = mysqli_query($con,"SELECT * FROM `senmon_katei`;");$num = mysqli_num_rows($consulta);
 	$usuario = mysqli_fetch_assoc($consulta);
         $pagina = (isset($_GET['pagina']))? $_GET['pagina'] : 1;

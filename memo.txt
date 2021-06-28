@@ -1,0 +1,11 @@
+<nav class="cp_navi">
+	<div class="cp_pagination">
+		<a class="cp_pagenum prev" href="#">prev</a>
+		<span aria-current="page" class="cp_pagenum current">　
+		<div class="container"><?php for($i = 1; $i < $numPaginas + 1; $i++) {
+      echo "<a class=cp_pagenum　href='index.php?pagina=$i' >".$i."</a> ";  } ?>
+         </div>
+	    </span>
+	    <a class="cp_pagenum next" href="#">next</a>
+    </div>
+</nav>

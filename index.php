@@ -131,7 +131,6 @@ nav.cp_navi {
             echo "</div>";
      echo "</div>";      
 ?>
-<br>
 </font></center>
     </body>
 </html>

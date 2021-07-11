@@ -33,6 +33,7 @@ nav.cp_navi {
 	letter-spacing: 0.1em;
 	color: #ffffff;
 }
+	
 .cp_navi .cp_pagenum:hover,
 .cp_navi .cp_pagenum.current {
 	font-weight: bold;
